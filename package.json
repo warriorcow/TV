@@ -6,12 +6,17 @@
     "browser-sync": "^2.26.3",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-rename": "^1.4.0",
     "gulp-rigger": "^0.5.8",
     "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1",
     "gulp-wait": "0.0.2",
     "sass": "^1.16.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-imagemin": "^5.0.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
