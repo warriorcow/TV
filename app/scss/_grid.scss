@@ -1,0 +1,24 @@
+// GRID
+
+img {
+	width: 100%;
+}
+
+.container {
+	transform: skewY(-3.01deg);
+	width: 100%;
+	max-width: 100%;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.row {
+	transform: skewY(3.01deg);
+	max-width: $content;
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}

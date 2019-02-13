@@ -1,0 +1,52 @@
+// VARIABLES
+
+	// FONT
+
+		$bold: 'MontserratBold', sans-serif;
+		$medium: 'MontserratMedium', sans-serif;
+		$regular: 'MontserratRegular', sans-serif;
+		$capture: 'RubikMedium', sans-serif;
+		$capture-small: 'RubikRegular', sans-serif;
+
+
+
+	// COLORS
+
+		$black: #000;
+		$white: #fff;
+		$yellow: #FFE321;
+		$lightblue: #3BDCFF;
+		$gray: #CFCFCF;
+
+
+	// FONT SIZE
+
+		$h1: 36px;
+		$h2: 36px;
+		$bigtext: 20px;
+		$default: 18px;
+		$smalltext: 12px;
+
+
+	// MEDIA QUERIES
+
+		$S:   640px;
+		$ML:  1200px;
+
+		@mixin respond-to($media) {
+		  @if $media == mobile {
+		    @media only screen and (max-width: $S) { @content; }
+		  }
+		  @else if $media == tablet {
+		    @media only screen and (min-width: $S + 1) and (max-width: $ML - 1) { @content; }
+		  }
+		  @else if $media == desktop {
+		    @media only screen and (min-width: $ML) { @content; }
+		  }
+		}
+
+		// @include respond-to(tablet)
+
+	// GRID 
+
+		$content: 1170px;
