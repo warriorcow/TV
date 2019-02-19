@@ -195,7 +195,12 @@ form {
 .first-screen {
     padding-top: 150px;
     margin-top: -100px;
+<<<<<<< HEAD
     padding-bottom: 90px;
+=======
+    padding-bottom: 40px;
+    transform: none;
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
     overflow: visible;
 
     @include respond-to(mobile) {
@@ -209,6 +214,10 @@ form {
     }
 
     .row {
+<<<<<<< HEAD
+=======
+        transform: none;
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
         z-index: 10;
     }
 
@@ -270,7 +279,11 @@ form {
     padding-top: 120px;
     padding-bottom: 110px;
     min-height: 453px;
+<<<<<<< HEAD
     
+=======
+    transform: none;
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
     overflow: visible;
 
     @include respond-to(mobile) {
@@ -321,7 +334,11 @@ form {
         max-width: 660px;
         margin: 0 auto;
         z-index: 20;
+<<<<<<< HEAD
         
+=======
+        transform: none;
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
     }
 
     p {
@@ -344,7 +361,10 @@ form {
 
 .third-screen {
     padding: 120px 0;
+<<<<<<< HEAD
     transform: skewY(-3.01deg);
+=======
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
 
     @include respond-to(mobile) {
         padding: 50px 0;
@@ -377,7 +397,10 @@ form {
     .row {
         display: flex;
         justify-content: flex-end;
+<<<<<<< HEAD
         transform: skewY(3.01deg);
+=======
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
     }
 
     .col {
@@ -393,7 +416,10 @@ form {
 .fourth-screen {
     background-image: url(../images/bg-screen-4.png);
     padding: 120px 0;
+<<<<<<< HEAD
     transform: skewY(-3.01deg);
+=======
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
 
     @include respond-to(mobile) {
         padding: 50px 0;
@@ -411,7 +437,10 @@ form {
     .row {
         display: flex;
         justify-content: space-between;
+<<<<<<< HEAD
         transform: skewY(3.01deg);
+=======
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
 
         @include respond-to(mobile) {
             flex-direction: column;
@@ -445,15 +474,29 @@ form {
 
 .fifth-screen {
     padding-top: 105px;
+<<<<<<< HEAD
     
+=======
+    transform: none;
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
 
     @include respond-to(mobile) {
         padding-top: 50px;
     }
 
+<<<<<<< HEAD
     .container {
         padding-bottom: 50px;
         
+=======
+    .row {
+        transform: none;
+    }
+
+    .container {
+        padding-bottom: 50px;
+        transform: none;
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
 
         @include respond-to(tablet) {
             padding-bottom: 10px;
@@ -499,9 +542,17 @@ form {
             overflow: hidden;
             margin-bottom: 50px;
             color: $black;
+<<<<<<< HEAD
 
             @include respond-to(mobile) {
                 margin-bottom: 70px;
+=======
+            z-index: 5;
+
+            @include respond-to(mobile) {
+                margin-bottom: 70px;
+                height: 180px;
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
             }
 
             &:nth-child(n+5) {
@@ -517,7 +568,11 @@ form {
 
             .poster-film {
                 background-size: cover;
+<<<<<<< HEAD
                 background-position: top;
+=======
+                background-position: center;
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
                 background-repeat: no-repeat;
                 width: 100%;
                 height: 100%;
@@ -567,7 +622,10 @@ form {
     overflow: visible;
     margin-top: -135px;
     z-index: 20;
+<<<<<<< HEAD
     transform: skewY(-3.01deg);
+=======
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
 
     @include respond-to(mobile) {
         padding: 50px 0;
@@ -577,10 +635,13 @@ form {
         margin-top: -145px;
     }
 
+<<<<<<< HEAD
     .row {
         transform: skewY(3.01deg);
     }
 
+=======
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
     &:before {
         content: '';
         position: absolute;
@@ -604,7 +665,11 @@ form {
     padding-top: 130px;
     padding-bottom: 130px;
     overflow: visible;
+<<<<<<< HEAD
     
+=======
+    transform: none;
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
     margin-top: -135px;
     z-index: 20;
 
@@ -613,7 +678,11 @@ form {
     }
 
     .row {
+<<<<<<< HEAD
         
+=======
+        transform: none;
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
     }
 
     &:before { 
@@ -726,7 +795,11 @@ form {
 .eighth-screen {
     padding-top: 100px;
     padding-bottom: 100px;
+<<<<<<< HEAD
     
+=======
+    transform: none;
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
 
     @include respond-to(mobile) {
         padding-top: 50px;
@@ -734,7 +807,11 @@ form {
     }
 
     .row {
+<<<<<<< HEAD
         
+=======
+        transform: none;
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
     }
 
     h2 {
@@ -841,14 +918,22 @@ form {
     padding-bottom: 10px;
     padding-top: 110px;
     margin-top: -60px;
+<<<<<<< HEAD
     
+=======
+    transform: none;
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
 
     .row {
         display: flex;
         color: #3BDCFF;
         justify-content: space-between;
         flex-wrap: wrap;
+<<<<<<< HEAD
         
+=======
+        transform: none;
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
 
         @include respond-to(mobile) {
             justify-content: center;
@@ -940,10 +1025,13 @@ form {
     input {
         margin-bottom: 30px;
     }
+<<<<<<< HEAD
 
     input[type=text], input[type=submit], textarea{
         -webkit-appearance: none;
     } 
+=======
+>>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
 }
 
 .overlay {

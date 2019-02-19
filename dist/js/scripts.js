@@ -44,24 +44,7 @@ $('.show-follow-popup').click(function() {
 
 
 // Закрытие попапа
-<<<<<<< HEAD
-var pressEsc = $(document).bind('keydown', function(e) { 
-				    if (e.which == 27) {
-				        $('.hidden').hide(500);
-						$('body').css('overflow','visible');
-				    }
-				});
-
-$('.overlay, .close-btn').click(function() {
-	pressEsc
-	$('.hidden').hide(500);
-	$('body').css('overflow','visible');
-});
-
- 
-=======
 $('.overlay, .close-btn').click(function() {
 	$('.hidden').hide(500);
 	$('body').css('overflow','visible');
 });
->>>>>>> c6b651fe6c266ba5f7eb2939d021b3a89663da46
